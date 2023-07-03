@@ -11,3 +11,37 @@
  *
  * 4. Выведите результирующий массив в консоль
  */
+
+
+const carOne ={
+	carBrand : 'camaro',
+	price : 1333,
+	isAvailableForSale : true
+}
+const carTwo ={
+	carBrand : 'BMW',
+	price : 5768,
+	isAvailableForSale : true
+
+}
+
+const carThree ={
+	carBrand : 'Ford',
+	price : 789,
+	isAvailableForSale : false
+
+}
+
+const carFour = {
+	carBrand : 'Honda',
+	price : 5600,
+	isAvailableForSale : false
+
+}
+
+const myArray = [carOne, carTwo, carThree]
+
+myArray.push(carFour)
+
+
+console.log(myArray)

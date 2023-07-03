@@ -6,23 +6,23 @@
  *  - выражение-инструкция (expression statement)
  */
 
-15
+15          // <-- expression statement
 
-const myObject = {
+const myObject = { 
   x: 10,
-  y: true,
+  y: true,                   // <-- expression statement
 }
 
-myObject.z = 'abc'
+myObject.z = 'abc'           // <-- expression 
 
-delete myObject.x
+delete myObject.x            // <--  expression statement
+ 
+let newVariable              // <--  statement
 
-let newVariable
+newVariable = 30 + 5         // <-- expression statement
 
-newVariable = 30 + 5
-
-console.log(newVariable)
+console.log(newVariable)     // <-- expression statement
 
 if (newVariable > 10) {
-  console.log(`${newVariable} больше 10`)
+  console.log(`${newVariable} больше 10`)       // <--  statement
 }

@@ -12,3 +12,14 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+
+const myString = 'anystring'
+
+console.log (myString instanceof String)
+
+console.log(typeof myString)
+
+const myString2 = myString.toLocaleUpperCase()
+
+console.log (myString2)

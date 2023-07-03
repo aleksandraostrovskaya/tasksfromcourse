@@ -6,3 +6,18 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+
+let myString = 'Good Morning'
+
+let myStringTwo = myString = 'Good Evening'
+
+console.log(myStringTwo)
+	
+
+// option 2
+const greeting = 'Good Morning'
+
+const greetingTwo = greeting.replace('Morning', 'Evening')
+
+console.log(greetingTwo)

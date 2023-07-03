@@ -18,3 +18,18 @@ const MIN = 1000
 const MAX = 9999
 
 const myNumbers = [2355, 7235, 8135, 1762, 2361, 8351]
+
+
+// Решение
+function randomNumbers(min, max){
+	return Math.floor(Math.random() * (max-min) + min)
+}
+// randomNumbers(MIN,MAX)
+
+function addInArray(randomNumbers1) {
+	
+myNumbers.push(randomNumbers1)
+return myNumbers
+}
+
+console.log (addInArray(randomNumbers(MIN, MAX)))
